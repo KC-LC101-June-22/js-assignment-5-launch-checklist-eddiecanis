@@ -12,11 +12,11 @@ window.addEventListener("load", function() {
  
         let cargoInput = document.querySelector("input[name=cargoMass]");
         let cargoLevel = Number(cargoInput.value);
-
+}
 
    let listedPlanets;
    // Set listedPlanetsResponse equal to the value returned by calling myFetch() //
-   window.addEventListener("load", function(myFetch)
+   window.addEventListener("load", function(myFetch){}
    let listedPlanetsResponse;
    listedPlanetsResponse.then(function (result) {
        listedPlanets = result;
